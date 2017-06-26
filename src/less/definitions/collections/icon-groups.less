@@ -1,0 +1,28 @@
+///////////////////////
+// Icon groups
+//////////////////////
+
+// Review star rating
+.cdr-review-rating {
+    position: relative;
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    letter-spacing: -2px;
+    white-space: nowrap;
+    
+    & .icon {
+        position: relative;
+        margin: 0 2px 0 0;
+        z-index: 1;
+        
+        &.inactive {
+          color: #e5e5e5;
+        }
+        
+        &.backfill {
+          position: absolute;
+          top: 0;
+          z-index: 0;
+        }
+    }
+}
